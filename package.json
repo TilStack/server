@@ -1,0 +1,14 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Server for full gospel mission. It is to help in the obs configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "TilStack",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
