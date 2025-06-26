@@ -1,5 +1,5 @@
 {
-  "name": "server",
+  "name": "FGM server",
   "version": "1.0.0",
   "description": "Server firstly for full gospel mission of kotto. It is to help in the obs configuration",
   "main": "index.js",
