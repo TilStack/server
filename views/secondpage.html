@@ -4,8 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Second Page for test</title>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    
+    <h1>EFFECTUONS UN CALCUL VOIR</h1>
+    <form action="/seconde" method="get">
+
+        <input type="number" name="x" id="x" placeholder="Enter a first number" required>
+
+        <select name="operation" id="operation">
+            <option value="add">+</option>
+            <option value="multi">*</option>
+            <option value="div">/</option>
+            <option value="sous">-</option>
+        </select>
+
+        <input type="number" name="y" id="y" placeholder="Enter a second number" required>
+        <input type="submit" value="Calculer">
+    </form>
 </body>
 </html>
